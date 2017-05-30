@@ -9,6 +9,9 @@ html {
   margin: 0 auto;
 }
 
+
+  /*   Nav Menu Section   */
+
 nav {
   padding: 2rem 0;
   color: white;
@@ -51,6 +54,8 @@ header img {
   padding-left: 2rem;
 }
 
+  /*   Banner Section   */
+
 ban {
   display: flex;
   justify-content: flex-end;
@@ -70,4 +75,91 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     padding: .67rem;
+}
+
+  /*   Second Section   */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+#vertical {
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.iconandtitle img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.iconandtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+
+.iconandtitle h2 {
+  line-height: 1.4rem;
+}
+
+  /*   Info Section   */
+
+.infocontainer {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+p {
+  padding: 1rem 0;
+  line-height: 1.4rem;
+}
+
+
+  /*  Footer Section   */
+
+footer {
+  background-color: azure;
+  height: 9.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box img {
+  height: 1.5rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin: 5rem;
+
+}
+
+footer span {
+  padding-left: 1rem;
 }
