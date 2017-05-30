@@ -35,6 +35,10 @@ nav span {
   align-items: center;
 }
 
+#smallscreen {
+  display: none;
+}
+
 ul li {
     display: inline;
     padding: 0 2rem 0 0;
@@ -162,4 +166,109 @@ footer {
 
 footer span {
   padding-left: 1rem;
+}
+
+
+
+/* Screen size below 1024px */
+
+@media only screen and (max-width: 1024px) {
+    .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  nav {
+    width: 100%
+  }
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+  .banner {
+    padding: .75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    line-height: 1.33rem;
+  }
+
+
+
+}
+
+
+/* Screen size below 470px */
+
+@media only screen and (max-width: 560px) {
+  nav {
+    width: 100%
+    padding: none;
+  }
+ header {
+    padding-top: 0;
+    height: 17rem;
+    background-position: 20%;
+  }
+  #bigscreen {
+    display: none;
+  }
+  #smallscreen {
+    display: flex;
+  }
+  ban {
+    display: flex;
+    justify-content: center;
+  }
+  .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 7rem;
+    padding: 0;
+    line-height: 1rem;
+  }
+  h1 {
+      font-size: 1rem;
+      padding: 1rem;
+  }
+
+  .infocontainer {
+    width: auto;
+  }
+  .supporting {
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iconandtitle {
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .iconandtitle h2 {
+    line-height: 1.4rem;
+    font-size: 0.77rem;
+  }
+  p {
+    padding: 1rem 1rem 4rem 1rem;
+    line-height: 1.5rem;
+    font-size: 0.77rem;
+  }
+  .infocontainer {
+    max-width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .info {
+    width: 100%;
+    margin-right: 0;
+  }
+  .title {
+    max-width: 100%;
+    display: flex;
+  }
+
 }
